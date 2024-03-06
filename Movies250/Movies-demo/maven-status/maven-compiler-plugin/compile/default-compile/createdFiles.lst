@@ -1,0 +1,13 @@
+com\lfj\moviesdemo\mq\MoviesListener.class
+com\lfj\moviesdemo\constants\MoviesConstans.class
+com\lfj\moviesdemo\constants\MqConstants.class
+com\lfj\moviesdemo\config\MqConfig.class
+com\lfj\moviesdemo\model\dto\movies.class
+com\lfj\moviesdemo\commen\Ruest.class
+com\lfj\moviesdemo\model\dto\PageResult.class
+com\lfj\moviesdemo\model\dto\moviesDoc.class
+com\lfj\moviesdemo\MoviesDemoApplication.class
+com\lfj\moviesdemo\service\impl\moviesServiceImpl.class
+com\lfj\moviesdemo\mapper\MoviesMapper.class
+com\lfj\moviesdemo\service\moviesService.class
+com\lfj\moviesdemo\controller\MoviesController.class

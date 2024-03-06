@@ -1,0 +1,32 @@
+server:
+  port: 1010
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/douban2?&useSSL=false&serverTimezone=Asia/Shanghai
+  rabbitmq:
+    virtual-host: /movies
+    host: 192.168.142.101
+    username: movies
+    password: 123
+    port: 5672
+    listener:
+      simple:
+        prefetch: 1
+
+mybatis-plus:
+  type-aliases-package: com.lfj.moviesdemo.model.dto.movies
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+  global-config:
+    db-config:
+      id-type: assign_id
+      update-strategy: not_null
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql

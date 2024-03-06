@@ -1,0 +1,11 @@
+2024/03/04 22:48:54 [notice] 15968#14912: signal process started
+2024/03/04 22:50:44 [notice] 18892#5680: signal process started
+2024/03/04 22:55:47 [notice] 19852#21320: signal process started
+2024/03/04 23:02:12 [notice] 11100#20060: signal process started
+2024/03/04 23:08:16 [notice] 20516#11352: signal process started
+2024/03/06 14:51:21 [notice] 20872#2820: signal process started
+2024/03/06 14:54:20 [notice] 6852#5344: signal process started
+2024/03/06 14:57:37 [notice] 1372#19996: signal process started
+2024/03/06 16:06:06 [notice] 8732#14288: signal process started
+2024/03/06 16:17:50 [notice] 16536#10156: signal process started
+2024/03/06 16:24:24 [error] 22336#2004: *5 directory index of "C:\Users\LFJ\Desktop\Movies250\movies_nginx/html/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
